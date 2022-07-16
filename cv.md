@@ -6,6 +6,9 @@ phone number: 79320935;
 email: tsurkan.g@gmail.com; 
 
 ***
+### Education
+2009-2013 Degree State University of RM economic faculty
+***
 ### About Myself
 I work as anti-fraud specialist in big european IT company. I work in different payments systems and 
 i realy understand how important is useful and easy ui interfaces on websites and dashborts.
@@ -37,6 +40,7 @@ function createPhoneNumber(numbers){
 ```
 ***
 ### Courses:
+* English courses Fantastic School
 * HTML Academy
 * RS school 
 ***
