@@ -8,6 +8,7 @@ email: tsurkan.g@gmail.com;
 ***
 ### Education
 2009-2013 Degree State University of RM economic faculty
+
 ***
 ### About Myself
 I work as anti-fraud specialist in big european IT company. I work in different payments systems and 
