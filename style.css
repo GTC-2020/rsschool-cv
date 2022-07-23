@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+  
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -11,11 +12,14 @@ body{
   margin:0;
   padding:0;
   color: rgb(80, 78, 78);
+  overflow-x: hidden;
 }
 .container{
     max-width: 1440px;
     margin:0 auto;
+    overflow-x: hidden;
 }
+
 .header{
     background-color:#829985;
     padding: 15px 0;
@@ -36,10 +40,45 @@ body{
     color: rgb(81, 76, 76);
     transition: .3s;
 }
-section{
+/*Section*/
+.section{
+    width: 50%;
+    padding: 15px;
+    position: relative;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+}
+.section-info{
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+.section-ptofile{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+.section::after,
+.section::before{
+    content: '';
+    width: 200px;
+    height: 2px;
+    background-color: #829985;
+    border-radius: 24px;
+    left: calc(50% - 100px);
+}
+.section::after{
+    position: absolute;
+    bottom: 15px;
+   
     
+}
+
+.section::before{
+    position: absolute;
+    top: 105px;
 }
 /*footer*/
 .footer{
@@ -72,21 +111,52 @@ section{
     transition: .3s;
 }
 /*Section profile*/
-.section-profile-avtar{
+.section-profile-avatar{
     display: inline-block;
     width: 450px;
     height: 450px;
     border-radius: 50%;
     margin-top: 100px;
-    margin-left:80px
+    margin-left: 100px;
+   
 }
-.section-title{
+.section-profile-info{
+    max-width: 50%;
+}
+.section-profile-title{
+    display: inline-block;
     font-size: 65px;
+    margin-bottom: 5px;
     color: rgb(80, 78, 78);
-    padding-right: 90px;
     padding-top: 125px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.section-profile-title::after{
+    content: '';
+    width: 350px;
+    height: 2px;
+    background-color: #829985;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  
 }
 .section-subtitle{
+    display: inline-block;
     color: rgb(80, 78, 78);
     font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+/*About Myself*/
+.section-about{
+    width:80%;
+    margin: 0 auto;
 }
