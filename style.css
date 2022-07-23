@@ -42,7 +42,7 @@ body{
 }
 /*Section*/
 .section{
-    width: 50%;
+    width: 45%;
     padding: 15px;
     position: relative;
 }
@@ -60,7 +60,6 @@ body{
     justify-content: space-between;
     width: 100%;
 }
-.section::after,
 .section::before{
     content: '';
     width: 200px;
@@ -80,6 +79,8 @@ body{
     position: absolute;
     top: 105px;
 }
+
+
 /*footer*/
 .footer{
     background-color: #829985;
@@ -110,6 +111,7 @@ body{
     color: rgb(81, 76, 76);
     transition: .3s;
 }
+
 /*Section profile*/
 .section-profile-avatar{
     display: inline-block;
@@ -157,6 +159,22 @@ body{
 }
 /*About Myself*/
 .section-about{
-    width:80%;
+    width:100%;
     margin: 0 auto;
+}
+
+
+/*Education*/
+.year{
+    font-weight: 600;
+    color: black;
+    padding-left: 25px;
+}
+
+/*courses*/
+.courses-list{
+    margin-left: 70px;
+}
+.courser-item{
+    padding-bottom: 15px;
 }
