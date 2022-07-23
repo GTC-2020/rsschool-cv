@@ -168,13 +168,30 @@ body{
 .year{
     font-weight: 600;
     color: black;
-    padding-left: 25px;
+    padding-left: 55px;
 }
 
 /*courses*/
 .courses-list{
-    margin-left: 70px;
+    margin-left:100px;
 }
 .courser-item{
     padding-bottom: 15px;
+}
+
+/*Skills*/
+.skills-list{
+    margin-left:55px;
+}
+.skills-item{
+    padding-bottom: 15px;
+}
+
+/*Code*/
+.code{
+    font-size: 18px;
+    padding-left:-15px ;
+}
+.code_pre{
+    margin-left: -55px;
 }

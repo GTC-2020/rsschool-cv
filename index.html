@@ -18,10 +18,10 @@
             <ul class="nav-list">
                 <li class="nav-item"><a href="#about_myself" class="nav-link">About Myself</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">L</a></li>
                 <li class="nav-item"><a href="#languges" class="nav-link">Languges</a></li>
             </ul>
         </nav>
@@ -51,13 +51,44 @@
                 <p class="section-info"><span class="year">2009-2013</span> Degree State University of RM economic faculty</p>
             </section>
 
-            <section class="section" id="about_myself">
+            <section class="section" id="courses">
                 <h3 class="section-title">Courses</h3>
                 <ul class="courses-list">
                     <li class="courser-item">English courses Fantastic School</li>
                     <li class="courser-item">HTML Academy</li>
                     <li class="courser-item">RS school(now)</li>
                 </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h3 class="section-title">Skills and Proficiency</h3>
+                <ul class="skills-list">
+                    <li class="skills-item">HTM, CSS</li>
+                    <li class="skills-item">JavaScript basics</li>
+                    <li class="skills-item">Git, GitHub</li>
+                    <li class="skills-item">VS code</li>
+                    <li class="skills-item">Figma</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h3 class="section-title">Code</h3>
+                <code class="code">
+                    <pre class="code_pre">
+                    function createPhoneNumber(numbers){
+                        let phone = `(`;
+                      for (let i = 0; i < numbers.length; i++){
+                        phone += numbers[i];
+                        if(i === 2){
+                          phone += ') ';
+                        } if (i === 5){
+                          phone += '-'
+                        }
+                      }
+                      return phone;
+                    }
+                    </pre>
+                </code>
             </section>
 
           
