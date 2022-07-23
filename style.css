@@ -4,9 +4,13 @@ html{
 body{
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
   margin:0;
   padding:0;
+  color: rgb(80, 78, 78);
 }
 .container{
     max-width: 1440px;
@@ -29,6 +33,60 @@ body{
     color:white;
 }
 .nav-link:hover{
-    color: black;
+    color: rgb(81, 76, 76);
     transition: .3s;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*footer*/
+.footer{
+    background-color: #829985;
+    padding: 10px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link{
+    display: inline-block;
+    padding: 35px;
+}
+.footer-logo{
+    width: 100px;
+}
+.footer-year{
+    display: inline-block;
+    align-self: flex-end;
+    font-size: 12px;
+}
+.footer-link-personal{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-link-personal:hover{
+    color: rgb(81, 76, 76);
+    transition: .3s;
+}
+/*Section profile*/
+.section-profile-avtar{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left:80px
+}
+.section-title{
+    font-size: 65px;
+    color: rgb(80, 78, 78);
+    padding-right: 90px;
+    padding-top: 125px;
+}
+.section-subtitle{
+    color: rgb(80, 78, 78);
+    font-size: 35px;
 }
