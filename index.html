@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+       
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about_myself" class="nav-link">About Myself</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#languges" class="nav-link">Languges</a></li>
+                <li class="nav-item"><a href="#languges" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="main">
+        
+        <div class="container main-container">
+            <section class=" section-ptofile">
+                <img class="section-profile-avatar" alt="imagen aleatoria" src="https://picsum.photos/700/400?random">
+                <div class="section-profile-info">
+                  <h1 class="section-profile-title">Turcan Gheorghe</h1>
+                  <h3 class="section-subtitle">Junior FrontEnd Developer</h3>
+                </div>
+            </section>
+
+            <section class="section section-about" id="about_myself">
+                <h3 class="section-title">About Myself</h3>
+                <p class="section-info">I work as anti-fraud specialist in big european IT company. I work in different payments systems and 
+                    i realy understand how important is useful and easy ui interfaces on websites and dashborts.
+                    I am patient in new knowledge and always try to found out how things in that i am interested worked in deep ways.</p>
+            </section>
+
+            <section class="section" id="education">
+                <h3 class="section-title">Education</h3>
+                <p class="section-info"><span class="year">2009-2013</span> Degree State University of RM economic faculty</p>
+            </section>
+
+            <section class="section" id="courses">
+                <h3 class="section-title">Courses</h3>
+                <ul class="courses-list list ">
+                    <li class="courser-item item">English courses Fantastic School</li>
+                    <li class="courser-item item">HTML Academy</li>
+                    <li class="courser-item item">RS school(now)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h3 class="section-title">Skills and Proficiency</h3>
+                <ul class="skills-list list">
+                    <li class="skills-item item">HTM, CSS</li>
+                    <li class="skills-item item">JavaScript basics</li>
+                    <li class="skills-item item">Git, GitHub</li>
+                    <li class="skills-item item">VS code</li>
+                    <li class="skills-item item">Figma</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h3 class="section-title">Code</h3>
+                <code class="code">
+                    
+                    function createPhoneNumber(numbers){
+                        let phone = `(`;
+                      for (let i = 0; i &lt; numbers.length; i++){
+                        phone += numbers[i];
+                        if(i === 2){
+                          phone += ') ';
+                        } if (i === 5){
+                          phone += '-'
+                        }
+                      }
+                      return phone;
+                    }
+                    
+                </code>
+            </section>
+
+            <section class="section" id="languges">
+                <h3 class="section-title">Languges</h3>
+                <ul class="languges-list list">
+                    <li class="languges-item item">Rusian</li>
+                    <li class="languges-item item">Romanian(b1)</li>
+                    <li class="languges-item item">English(b1)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="contacts">
+                <h3 class="section-title">Contacts</h3>
+                <ul class="contacts-list list">
+                    <li class="contacts-item item">phone number: <a class="contacts-link" href="(+373)79320935">(+373)79320935</a></li>
+                    <li class="contacts-item item"> email:<a  class="contacts-link" href="mailto:tsurkan.g@gmail.com">tsurkan.g@gmail.com</a></li>
+                </ul>
+            </section>
+          
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <a class="footer-link footer-link-personal" href="https://github.com/GTC-2020?tab=repositories" title="link to personal github repository">GTC-2020</a>
+            <span class="footer-year">© 2022 Turcan Gheorge</span>
+            <a class="footer-link" href="https://rs.school/" title="link to rs school" >
+                <img class="footer-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs school logo">
+            </a>
+        </div>
+    </footer>  
+
+</body>
+</html>
