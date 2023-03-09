@@ -54,3 +54,15 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 ```
 ----
+#### Courses:
+
+- HTML Academy
+- English Course Fantastic English
+- RS School
+
+----
+
+#### Languages:
+- Rusian
+- Romanian
+- English(b1)
